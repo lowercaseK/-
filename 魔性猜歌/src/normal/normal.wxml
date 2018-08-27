@@ -1,0 +1,21 @@
+<view  style='background-image:url(/images/locks.jpg);'>
+  <view class='container'>
+    <view style="width:400rpx;height:400rpx;left:175rpx;top:12rpx;position:absolute;" >
+     <image style="width:100%;height:100%;border-radius:50%;" src='/images/changpian.jpg/' ></image> 
+    </view >
+    <button style="position:absolute; top:470rpx; width:400rpx; height:100rpx;position:absolute; left:175rpx; background-size: cover" type='{{tpA}}' bindtap='checkA'>
+    {{A}}
+    </button>
+    <button style="position:absolute; top:670rpx; width:400rpx; height:100rpx;position:absolute; left:175rpx; background-size: cover" type='{{tpB}}' bindtap='checkB'>
+    {{B}}
+    </button> 
+    <button style="position:absolute; top:870rpx; ;width:400rpx; height:100rpx;position:absolute; left:175rpx; background-size: cover" type='{{tpC}}' bindtap='checkC'>
+    {{C}}
+    </button>
+    
+    
+  </view>
+  
+  
+</view>
+

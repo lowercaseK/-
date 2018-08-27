@@ -1,0 +1,23 @@
+<view  style='background-image:url(/images/locks.jpg);'>
+ 
+  <view class='container'>
+    <image src='/images/title0.png' class='picture' mode='widthFix'></image>
+    <view>
+      <image mode='widthFix' style='width:385rpx' bindtap='normal' src='/images/putong.png' ></image>
+    </view>
+    <view>
+      <image mode='widthFix' style='width:350rpx' bindtap='friend' src='/images/haoyou.png' ></image>
+    </view>
+    <view >
+      <image mode='widthFix' style='width:350rpx' bindtap='hell' src='/images/diyu.png' ></image>
+    </view>
+ </view>
+  <view class='item'>
+    <text >历史最佳:</text>
+    <navigator style='display:inline;' url='/pages/content/content' open-type='navigate' hover-class='nav-hover' class='nav-defalt' >排行榜</navigator>
+  </view>
+  
+</view>
+  
+
+

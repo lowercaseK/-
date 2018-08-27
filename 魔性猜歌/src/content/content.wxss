@@ -1,0 +1,30 @@
+/*'历史最佳'与'排行榜'的字体定义*/
+Page{
+  font-weight:bold;font-size:25px
+}
+/*整体布局*/
+.container{
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around
+
+}
+/*文字的布局与格式定义*/
+.item{
+  color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+  
+  
+}
+/*未点击时文字颜色*/
+.nav-defalt{
+  color:yellow;
+}
+/*点击时文字颜色*/
+.nav-hover{
+  color:aqua;
+}
